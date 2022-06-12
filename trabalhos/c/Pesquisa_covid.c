@@ -16,39 +16,61 @@ Ao final deseja saber:
  - A quantidade de pessoas que tiveram sintomas e não precisaram procurar ajuda médica. 
  - A média de idade das mulheres que tiverem sintomas e o teste deu negativo.*/
 #include<stdio.h>
-#lnclude<locale.h>
+#include<locale.h>
 int main(){
 setlocale(LC_ALL,"portuguese");
-int cont,part,idade,sexo,sint,dias_sint,ajuda,teste,result;
+int cont,cont2,part,idade,sexo,sint,dias_sint,ajuda,teste,result,assin=0,melhor_idade=0,sint_ajuda;
+float m_dias_sint,media_dias,m_idade,perc_melhor,media_mulher;
 
-	printf("Quantas pessoas participarão da pesquisa hoje? ");
+	printf("Quantas pessoas para pesquisar hoje? ");
 	scanf("%d",&part);
 	
 		for(cont=1;cont<=part;cont++){
+		printf("Pessoa de numero %d\n\n",cont);	
 		printf("Qual idade da pessoa: ");
 		scanf("%d",&idade);
 		printf("Qual o Sexo (1-masculino / 2-Feminino) ");
 		scanf("%d",&sexo);
-		printf("Teve sintomas de Covid? (1-Sim / 2-Não) ");
+		printf("Teve sintomas de Covid? (1-Sim / 2-Nao) ");
 		scanf("%d",&sint);
 			if(sint==1){
 				printf("Por quantos dias? ");
 				scanf("%d",&dias_sint);
-				printf("Precisou de ajuda médica? 1-emergencia 2-consulta 3-Não ");
+				printf("Precisou de ajuda medica? 1-Emergencia 2-Consulta 3-Nao: ");
 				scanf("%d",&ajuda);
 			}
-		printf("Realizou Teste do covid? 1-Sim 2-Não");
+		printf("Realizou Teste do covid? 1-Sim 2-Nao: ");
 		scanf("%d",&teste);
 			if(teste==1){
 				printf("Qual foi Resultado? 1-Positivo 2-Negativo: ");
-				scanf("%d",result);
+				scanf("%d",&result);
 			}
-			
-					
-			
+		if(result==1&&sint==2){
+			assin++;
+		}	
+		if(idade>=65&&ajuda==1){
+			melhor_idade++;
+		}			
+		if(sint==1&&ajuda==3){
+			sint_ajuda++;
 		}
-		
-		
-system("pause")	
+		if(sexo==2&&sint==1&&result==2){
+			m_idade=m_idade+idade;
+			cont2++;
+		}	
+		m_dias_sint=m_dias_sint+dias_sint;
+		system("cls");
+		}
+	perc_melhor=(part/100)*melhor_idade;
+	media_mulher=m_idade/cont2;
+	media_dias=m_dias_sint/part;	
+	printf("Resultado");
+	printf("\n\nA quantidade de pessoas assintomaticas: %d\n",assin);	
+	printf("Percentual de Pessoas com mais de 65 anos e Procuraram Emergencia: %.2f\n",perc_melhor);
+	printf("A media de dias dos sintomas:%.1f\n",media_dias);
+	printf("A quantidade de pessoas que tiveram sintomar e nao precisaram de ajuda medica: %d\n",sint_ajuda);
+	printf("A media de mulheres que tiveram sintomas e teste deu negativo:%.0f\n",media_mulher);
+
+system("pause");
 return 0;
 }
