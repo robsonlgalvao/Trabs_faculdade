@@ -29,9 +29,9 @@ float m_dias_sint,media_dias,m_idade,perc_melhor,media_mulher;
 		printf("Pessoa de numero %d\n\n",cont);	
 		printf("Qual idade da pessoa: ");
 		scanf("%d",&idade);
-		printf("Qual o Sexo (1-masculino / 2-Feminino) ");
+		printf("Qual o Sexo (1-masculino / 2-Feminino): ");
 		scanf("%d",&sexo);
-		printf("Teve sintomas de Covid? (1-Sim / 2-Nao) ");
+		printf("Teve sintomas de Covid? (1-Sim / 2-Nao): ");
 		scanf("%d",&sint);
 			if(sint==1){
 				printf("Por quantos dias? ");
@@ -67,9 +67,9 @@ float m_dias_sint,media_dias,m_idade,perc_melhor,media_mulher;
 	printf("Resultado");
 	printf("\n\nA quantidade de pessoas assintomaticas: %d\n",assin);	
 	printf("Percentual de Pessoas com mais de 65 anos e Procuraram Emergencia: %.2f\n",perc_melhor);
-	printf("A media de dias dos sintomas:%.1f\n",media_dias);
-	printf("A quantidade de pessoas que tiveram sintomar e nao precisaram de ajuda medica: %d\n",sint_ajuda);
-	printf("A media de mulheres que tiveram sintomas e teste deu negativo:%.0f\n",media_mulher);
+	printf("A media de dias dos sintomas: %.1f\n",media_dias);
+	printf("A quantidade de pessoas que tiveram sintomas e nao precisaram de ajuda medica: %d\n",sint_ajuda);
+	printf("A media de mulheres que tiveram sintomas e teste deu negativo: %.0f\n",media_mulher);
 
 system("pause");
 return 0;
