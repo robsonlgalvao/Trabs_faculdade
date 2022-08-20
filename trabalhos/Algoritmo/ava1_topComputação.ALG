@@ -1,0 +1,27 @@
+Algoritmo "AVA1"
+// Disciplina   : [Tópicos de Computação]
+// Professor   :
+// Descrição   : Construa um algoritmo que calcule a idade média de uma família qualquer.
+// Autor(a)    : Robson Galvão
+// Data atual  : 19/08/2022
+Var
+// Seção de Declarações das variáveis 
+media,quant,idade,idadetot:real
+i:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ escreval("Digite quantos integrantes tem a familia: ")
+ leia(quant)
+ i<-1
+ enquanto i<=quant faca
+
+ escreval("Digite a idade da",i," pessoa ")
+ leia(idade)
+ 
+ idadetot<-idade+idadetot
+ i<-i+1
+ fimenquanto
+ media<-idadetot/quant
+ escreval("A media de idade dessa familia é: ",media)
+
+Fimalgoritmo
