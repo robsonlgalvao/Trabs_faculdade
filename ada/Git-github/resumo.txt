@@ -1,0 +1,62 @@
+Git/github
+
+Códigos
+
+===============git status===================== 
+
+visualiza informações em qual branch, quantidade de commits e se tem arquivos modificados(modifiqued)
+===============================================
+==============git add nome arquivo==========================
+
+Adiciona arquivos (modificados/novos) para fazer commit
+
+================================================
+==============git commit -m "comentário aqui"========
+
+Comando para preparar arquivos para repositório remoto
+
+=======================================================
+========================git log========================
+
+histórico dos commits
+OBS: sair na tecla q e enter
+
+=======================================================
+================git restore nome do arquivo============
+
+Restaura para o estado anterior do arquivo, desfaz as alterações 
+
+=======================================================
+================git branch============================
+
+Mostra as branchs exitentes e em qual vc está selecionado(com a head)
+
+======================================================
+=================git branch nome======================
+
+cria uma branch com nome indicado.
+
+=======================================================
+================git checkout nome branch===============
+
+Troca de para a brach que vc indicou.
+
+=======================================================
+=====================git remote=======================
+
+Mostra qual nome do local remoto
+
+======================================================
+===============git push nome repositório nome branch======
+
+manda para repositório remoto
+exemplo: git push origin main
+
+OBS:
+Ordem
+git add nome do arquivo
+git commit -m "Comentário"
+git push origin main
+==========================================================
+
+

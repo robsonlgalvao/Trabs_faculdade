@@ -1,0 +1,12 @@
+Cloud computing---
+
+Datacenter- Centro de processamento de dados(comportar servidores)
+
+Cloud pública- Datacenter da empresa(sem responsabilidade do usuário exemplo-cair energia) (Azure, Googlecloud, AWS(amazon) oracle, IBM alibaba)
+
+Cloud privada- Datacenter próprio(de responsbilidade do usuário) (Redhat e vmware)
+
+Cloud Hibrida- Conexão cloud pública com cloud privada.
+
+Virtualização- Crir uma maquin virtual ("programa" usado hypervisor)
+
