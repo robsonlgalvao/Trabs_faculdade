@@ -1,0 +1,20 @@
+
+Desbrave o arduíno e desenvolva projetos incríveis de automação do zero e com fundamento!
+
+Com o curso de Arduino Para Iniciantes você aprenderá do zero até a criação de projetos elaborados, através de vídeo aulas, e no seu tempo de estudo.
+
+Com este curso você aprenderá a construir seu próprio código para seus projetos, entender esquemas e desenvolver automações fantásticas, chega de ficar apenas no ctrl+c e ctrl+v!
+
+Mesmo sem ainda saber programar ou sem saber nada de eletrônica, o curso ensinará de maneira gradativa e passo a passo como construir e programar seus próprios projetos.
+
+CONTEÚDO:
+
+- 10 Aulas completas;
+- Aprenda conceitos de eletrônica;
+- Aprenda a programar de verdade;
+- Crie suas próprias funções;
+- Acenda uma lâmpada pelo celular;
+- Comunique dois Arduinos;
+- Lives com professo.
+
+Link do Curso: https://www.arduinoeautomacao.com.br/ar/o-curso/curso-arduino-para-iniciantes
