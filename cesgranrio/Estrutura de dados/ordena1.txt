@@ -1,0 +1,75 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/ordenação por inserção (crescente)/
+#define max 5
+
+int main(int argc, char *argv[]) {
+	int i, j, aux;
+	int vetori[max]={9,2,8,4,3};
+	for (i = 1; i < max; i++) {
+		aux = vetori[i];
+		for (j = i-1; (j >= 0) && (aux < vetori[j]); j--){
+			vetori[j+1] = vetori[j];
+		}
+		vetori[j+1] = aux;
+	}
+	for(i=0;i<max;i++){
+		printf("%d \t",vetori[i]);
+	}
+
+/ordenação por seleção (decrescente)/		
+	int aux2;
+	int vetorj[max]={9,2,8,4,3};
+	for (i = 0; i < max-1; i++) {
+		aux = i;
+		for (j = i+1; j < max; j++){
+			if(vetorj[aux] < vetorj[j]){
+				aux = j;
+			}
+		}
+		aux2 = vetorj[i];
+		vetorj[i] = vetorj[aux];
+		vetorj[aux] = aux2;
+	}
+	printf("\n\n");
+	for(i=0;i<max;i++){
+		printf("%d \t",vetorj[i]);
+	}
+	printf("\n\n");
+	
+	
+	/ordenação troca simples (crescente)/
+	int vetorts[max]={9,2,8,4,3};
+	for(i=0;i<max-1;i++){
+		for(j=i+1;j<max;j++){
+			if(vetorts[i]>vetorts[j]){
+				aux=vetorts[i];
+				vetorts[i]=vetorts[j];
+				vetorts[j]=aux;
+			}
+		}		
+	}				
+	for(i=0;i<max;i++){
+		printf("%d \t",vetorts[i]);
+	}
+	printf("\n\n");
+	
+	
+	/ordenação bolha (decrescente)/
+	int vetorb[max]={9,2,8,4,3};
+	for(i = 0; i < max; i++){
+		for(j=0;j<max-1;j++){
+			if(vetorb[j] < vetorb[j+1]){
+				aux=vetorb[j];
+				vetorb[j]=vetorb[j+1];
+				vetorb[j+1]=aux;
+			}
+		}		
+	}				
+	for(i=0;i<max;i++){
+		printf("%d \t",vetorb[i]);
+	}
+	
+	return 0;
+}

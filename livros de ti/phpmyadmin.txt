@@ -1,0 +1,83 @@
+Como mudar sua senha MySQL no XAMPP (3 métodos)
+Como na maioria das tarefas do WordPress, há várias maneiras de mudar a senha do MySQL. O método que você deve usar dependerá exatamente do que você precisa fazer e com qual interface você está mais confortável: a linha de comando, uma Interface Gráfica de Usuário (GUI), ou arquivos de texto. Com isso em mente, vamos dar uma olhada em três maneiras de mudar a sua senha do MySQL no XAMPP.
+
+1. Altere sua senha MySQL usando a Shell XAMPP
+Usar a shell XAMPP geralmente será o método mais simples e rápido para mudar sua senha MySQL. Ele envolve o uso da linha de comando, o que pode parecer assustador no início.
+
+No entanto, na verdade, é bastante simples. Este é também o método que você vai querer usar se você esqueceu sua senha MySQL existente e precisa redefini-la.
+
+Note que estes comandos são os mesmos quer você esteja usando Windows ou macOS. Como este é um shell único específico para o XAMPP, quaisquer diferenças típicas entre as plataformas não se aplicarão.
+
+Para começar, abra seu Painel de Controle XAMPP e clique no botão Shell no lado direito.
+
+Use a shell do XAMPP para alterar a sua senha de root.
+Use a shell do XAMPP para mudar a sua senha de root.
+Isto abrirá uma nova janela com um prompt de comando. Digite o seguinte comando e pressione a tecla Enter/Return:
+
+mysqladmin -u root password
+A shell solicitará que você digite uma nova senha. Pressione Enter/Return novamente, e você será solicitado a confirmar a nova senha.
+
+Uma vez feito isso, você está acabado e pode fechar a janela.
+
+2. Mude a sua senha do XAMPP MySQL através do phpMyAdmin
+O segundo método envolve o uso do phpMyAdmin GUI para mudar sua senha do XAMPP MySQL. Esta técnica é relativamente simples, mas geralmente não tão rápida quanto o método de linha de comando.
+
+Primeiro, você precisa acessar a interface phpMyAdmin. Abra o painel de controle do XAMPP e clique em Admin na linha MySQL:
+
+Abra o phpMyAdmin no XAMPP.
+Abra o phpMyAdmin no XAMPP.
+O PhpMyAdmin abrirá em uma janela do navegador:
+
+A interface phpMyAdmin.
+A interface phpMyAdmin.
+Se lhe for pedido para entrar, utilize o nome de utilizador “root” e introduza a sua senha root. Se você ainda não definiu uma, você pode deixá-la em branco.
+
+Em seguida, navegue até a seção Contas de usuário na barra de menu principal, e localize o usuário root para o localhost na lista:
+
+O usuário root no phpMyAdmin.
+O usuário root no phpMyAdmin.
+A seguir, você pode clicar em Editar privilégios ao lado do usuário root e, em seguida, selecionar Alterar senha na parte superior da página.
+
+Iniciar mudança de senha no phpMyAdmin.
+Iniciar mudança de senha no phpMyAdmin.
+Na tela seguinte, basta digitar a senha que você deseja usar:
+
+Mude sua senha de root no phpMyAdmin.
+Mude sua senha de root no phpMyAdmin.
+Quando terminar, você pode clicar no botão Go no canto inferior direito para salvar a mudança. É isso mesmo!
+
+3. Altere sua senha do XAMPP MySQL editando o arquivo config.inc.php
+Se você se encontrar em uma situação em que sabe que sua senha está correta, mas não está funcionando por qualquer motivo, este é o método para você. Envolve abrir um arquivo de texto e editar a senha diretamente nele.
+
+Primeiro, abra o Painel de Controle do XAMPP e clique no botão Explorer, no lado direito da janela:
+
+O botão Explorer no Painel de Controlo do XAMPP.
+O botão Explorer no Painel de Controlo do XAMPP.
+Isto irá iniciar um navegador de arquivos na pasta XAMPP. A seguir, você pode abrir a pasta phpMyAdmin e localizar o arquivo config.inc.php:
+
+O arquivo config.inc.php no Windows.
+O arquivo config.inc.php no Windows.
+
+Você pode abrir este arquivo em seu editor de texto favorito, ou simplesmente clicar duas vezes sobre ele para abri-lo no programa padrão.
+
+A linha que você está procurando é $cfg['Servers'][$i]['password'] = 'YourPassword';. Aqui está o que parece:
+
+A linha para editar a senha do MySQL no arquivo config.inc.php.
+A linha para editar a senha do MySQL no arquivo config.inc.php.
+Uma vez localizado, você pode digitar a senha desejada entre as aspas simples, e então salvar o arquivo. Isso é tudo o que há!
+
+Resumo
+Se você esqueceu sua senha do XAMPP MySQL ou quer aumentar sua segurança, há vários métodos que você pode usar para mudá-la. Atualizar sua senha ajuda a manter seus dados seguros, e fornece uma camada adicional de defesa contra atividades maliciosas.
+
+Neste artigo, nós abordamos como mudar sua senha MySQL em uma instalação XAMPP usando três métodos, que incluem o uso da linha de comando, passar pela GUI phpMyAdmin e editar um arquivo diretamente. Você pode escolher o método que melhor se adequa ao seu fluxo de trabalho.
+
+Se você leva a segurança a sério e quer garantir que todos os seus sites WordPress estão protegidos, considere hospedar com a Kinsta. Nossos planos oferecem a segurança, velocidade e suporte que o seu site precisa para operar no seu melhor.
+
+Tenha todos os seus aplicativos, banco de dados, e Sites WordPress on-line em um único lugar. Nossa plataforma de nuvem de alto desempenho e repleta de recursos inclui:
+
+Fácil configuração e gerenciamento no painel MyKinsta
+Suporte especializado 24/7
+O melhor hardware e rede do Google Cloud Platform, alimentado por Kubernetes para a máxima escalabilidade
+Integração Cloudflare de nível empresarial para velocidade e segurança
+Alcance uma audiência global com até 35 centros de dados e 275 PoPs do Cloudflare em todo o mundo
+Comece com um teste gratuito da nossa Hospedagem de Aplicativos ou Hospedagem de Banco de Dados. Explore nossos planos ou entre em contato com as vendas para encontrar a opção mais adequada para você.
