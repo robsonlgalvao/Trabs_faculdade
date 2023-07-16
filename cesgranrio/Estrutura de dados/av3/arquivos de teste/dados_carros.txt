@@ -1,0 +1,2 @@
+Placa: hd45, Hora de entrada: 12:00, Hora de saída: 13:00
+Placa: xrz120, Hora de entrada: 2, Hora de saída: 4

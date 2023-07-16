@@ -1,0 +1,82 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+void inserirDados();
+void exibirDados();
+
+int main() {
+    int opcao;
+
+    do {
+        printf("----- Menu -----\n");
+        printf("1 - Inserir dados\n");
+        printf("2 - Exibir dados\n");
+        printf("3 - Finalizar\n");
+        printf("Escolha uma opcao: ");
+        scanf("%d", &opcao);
+
+        switch (opcao) {
+            case 1:
+                inserirDados();
+                break;
+            case 2:
+                exibirDados();
+                break;
+            case 3:
+                printf("Programa finalizado.\n");
+                break;
+            default:
+                printf("Opcao invalida. Tente novamente.\n");
+                break;
+        }
+    } while (opcao != 3);
+
+    return 0;
+}
+
+void inserirDados() {
+    char nome[50];
+    int idade;
+    float altura;
+
+    FILE *arquivo = fopen("dados.txt", "a"); // abre o arquivo em modo de escrita (append)
+
+    if (arquivo == NULL) {
+        printf("Erro ao abrir o arquivo.\n");
+        return;
+    }
+
+    printf("Digite o nome: ");
+    scanf(" %[^\n]s", nome);
+
+    printf("Digite a idade: ");
+    scanf("%d", &idade);
+
+    printf("Digite a altura: ");
+    scanf("%f", &altura);
+
+    fprintf(arquivo, "%s %d %.2f\n", nome, idade, altura);
+
+    fclose(arquivo);
+
+    printf("Dados inseridos com sucesso.\n");
+}
+
+void exibirDados() {
+    char linha[100];
+
+    FILE *arquivo = fopen("dados.txt", "r"); // abre o arquivo em modo de leitura
+
+    if (arquivo == NULL) {
+        printf("Erro ao abrir o arquivo.\n");
+        return;
+    }
+
+    printf("----- Dados -----\n");
+
+    while (fgets(linha, sizeof(linha), arquivo) != NULL) {
+        printf("%s", linha);
+    }
+
+    fclose(arquivo);
+}
