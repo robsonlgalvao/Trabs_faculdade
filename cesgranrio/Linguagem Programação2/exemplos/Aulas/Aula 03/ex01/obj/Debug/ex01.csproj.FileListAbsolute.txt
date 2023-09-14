@@ -1,0 +1,15 @@
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\obj\Debug\ex01.csproj.AssemblyReference.cache
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\obj\Debug\ex01.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\obj\Debug\ex01.csproj.CoreCompileInputs.cache
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\bin\Debug\ex01.exe.config
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\bin\Debug\ex01.exe
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\bin\Debug\ex01.pdb
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\obj\Debug\ex01.exe
+C:\Users\Usu\Desktop\lp2\Aula03\ex01\obj\Debug\ex01.pdb
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\bin\Debug\ex01.exe.config
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\bin\Debug\ex01.exe
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\bin\Debug\ex01.pdb
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\obj\Debug\ex01.csproj.AssemblyReference.cache
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\obj\Debug\ex01.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\obj\Debug\ex01.exe
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\exercicios\Aula03\ex01\obj\Debug\ex01.pdb
