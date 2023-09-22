@@ -1,0 +1,7 @@
+C:\Users\Galvão\Desktop\lista\lista2\exe1\bin\Debug\exe1.exe.config
+C:\Users\Galvão\Desktop\lista\lista2\exe1\bin\Debug\exe1.exe
+C:\Users\Galvão\Desktop\lista\lista2\exe1\bin\Debug\exe1.pdb
+C:\Users\Galvão\Desktop\lista\lista2\exe1\obj\Debug\exe1.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\lista2\exe1\obj\Debug\exe1.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\lista2\exe1\obj\Debug\exe1.exe
+C:\Users\Galvão\Desktop\lista\lista2\exe1\obj\Debug\exe1.pdb

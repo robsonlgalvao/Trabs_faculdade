@@ -1,0 +1,14 @@
+C:\Users\Galvão\Desktop\lista\exe1\exe2\bin\Debug\exe2.exe.config
+C:\Users\Galvão\Desktop\lista\exe1\exe2\bin\Debug\exe2.exe
+C:\Users\Galvão\Desktop\lista\exe1\exe2\bin\Debug\exe2.pdb
+C:\Users\Galvão\Desktop\lista\exe1\exe2\obj\Debug\exe2.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\exe1\exe2\obj\Debug\exe2.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\exe1\exe2\obj\Debug\exe2.exe
+C:\Users\Galvão\Desktop\lista\exe1\exe2\obj\Debug\exe2.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe2\bin\Debug\exe2.exe.config
+C:\Users\Galvão\Desktop\lista\lista1\exe2\bin\Debug\exe2.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe2\bin\Debug\exe2.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe2\obj\Debug\exe2.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe2\obj\Debug\exe2.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe2\obj\Debug\exe2.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe2\obj\Debug\exe2.pdb

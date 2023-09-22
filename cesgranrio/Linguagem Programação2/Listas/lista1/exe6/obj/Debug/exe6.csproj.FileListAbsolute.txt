@@ -1,0 +1,7 @@
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\bin\Debug\exe6.exe.config
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\bin\Debug\exe6.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\bin\Debug\exe6.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\obj\Debug\exe6.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\obj\Debug\exe6.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\obj\Debug\exe6.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe1\exe6\obj\Debug\exe6.pdb

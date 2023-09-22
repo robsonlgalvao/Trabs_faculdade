@@ -1,0 +1,14 @@
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\bin\Debug\Lista1.exe.config
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\bin\Debug\Lista1.exe
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\bin\Debug\Lista1.pdb
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\obj\Debug\exe1.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\obj\Debug\exe1.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\obj\Debug\Lista1.exe
+C:\Users\Galvão\Desktop\lista\exe1\Lista1\obj\Debug\Lista1.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\bin\Debug\Lista1.exe.config
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\bin\Debug\Lista1.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\bin\Debug\Lista1.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\obj\Debug\exe1.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\obj\Debug\exe1.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\obj\Debug\Lista1.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe1\Lista1\obj\Debug\Lista1.pdb

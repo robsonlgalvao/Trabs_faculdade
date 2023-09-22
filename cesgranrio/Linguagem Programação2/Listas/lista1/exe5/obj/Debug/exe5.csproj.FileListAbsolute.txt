@@ -1,0 +1,14 @@
+C:\Users\Galvão\Desktop\lista\exe5\bin\Debug\exe5.exe.config
+C:\Users\Galvão\Desktop\lista\exe5\bin\Debug\exe5.exe
+C:\Users\Galvão\Desktop\lista\exe5\bin\Debug\exe5.pdb
+C:\Users\Galvão\Desktop\lista\exe5\obj\Debug\exe5.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\exe5\obj\Debug\exe5.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\exe5\obj\Debug\exe5.exe
+C:\Users\Galvão\Desktop\lista\exe5\obj\Debug\exe5.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe5\bin\Debug\exe5.exe.config
+C:\Users\Galvão\Desktop\lista\lista1\exe5\bin\Debug\exe5.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe5\bin\Debug\exe5.pdb
+C:\Users\Galvão\Desktop\lista\lista1\exe5\obj\Debug\exe5.csproj.AssemblyReference.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe5\obj\Debug\exe5.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Desktop\lista\lista1\exe5\obj\Debug\exe5.exe
+C:\Users\Galvão\Desktop\lista\lista1\exe5\obj\Debug\exe5.pdb
