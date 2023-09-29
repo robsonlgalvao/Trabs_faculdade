@@ -1,0 +1,7 @@
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\bin\Debug\exe2.exe.config
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\bin\Debug\exe2.exe
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\bin\Debug\exe2.pdb
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\obj\Debug\exe2.csproj.AssemblyReference.cache
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\obj\Debug\exe2.csproj.CoreCompileInputs.cache
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\obj\Debug\exe2.exe
+C:\Users\ctde17.INTRA\Documents\Lista3\exe2\obj\Debug\exe2.pdb
