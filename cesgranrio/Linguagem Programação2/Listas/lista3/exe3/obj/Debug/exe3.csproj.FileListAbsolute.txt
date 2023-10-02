@@ -1,0 +1,7 @@
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\bin\Debug\exe3.exe.config
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\bin\Debug\exe3.exe
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\bin\Debug\exe3.pdb
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\obj\Debug\exe3.csproj.AssemblyReference.cache
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\obj\Debug\exe3.csproj.CoreCompileInputs.cache
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\obj\Debug\exe3.exe
+C:\Users\Galvão\Documents\meusprojetos\Faculdade\cesgranrio\Linguagem Programação2\Listas\lista3\exe3\obj\Debug\exe3.pdb
